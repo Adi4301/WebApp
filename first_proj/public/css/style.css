@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Piazzolla:opsz@8..30&display=swap');
+
+
+*{
+    padding: 0 px;
+    margin: 0px;
+    font-family: 'Piazzolla', serif;
+}
+html, body {
+    font-size: 20px;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.navbar-nav{
+    margin-left: 50rem; 
+    
+    
+}
+.navbar{
+    background-color: rgb(20, 20, 20);
+    width: 100%;
+    padding: 0.9rem 0rem;
+    font-size: 25px;
+}
+.main_menu{
+    background-color: rgb(20, 20, 20);
+}
+.nav-link{
+    color: lightblue;
+}
+.row{
+    margin:0px;
+}
+.fa-snowflake{
+    transition:all linear;
+    animation: rot 2s linear infinite;
+}
+@keyframes rot{
+    0%{
+       transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.main_header_left p{
+    margin: 10px 0px 20px 30px;
+}
+.btn{
+    margin-left: 60px;
+    border: none;
+    padding: 0.6rem 1.1rem;
+    border-radius: 10px;
+    box-shadow: 0px 8px 6px -6px #000;
+    outline: none;
+}
+.main_header_left{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-start
+}
+.tempInformation{
+    width: 30rem;
+    margin: auto;
+    height: 20rem;
+    background-color: blanchedalmond;
+    border-radius: 0.8rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+.top_layer{
+    width: 100%;
+    height: 20%;
+    background-color: rgb(170, 155, 132);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 1rem;
+    
+}
+.top_layer p{
+    color: black;
+    font-weight: 300;
+    padding: 2rem;
+}
+.main_layer{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+}
+.main_layer #city_name{
+    padding: 2rem 0;
+    color: rgb(221, 160, 160);
+    font-weight: 300;
+    font-size: 2rem;
+}
+.main_layer .middle_layer{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+.main_layer .middle_layer p,
+.main_layer .middle_layer .fa{
+    font-size: 4rem;
+    font-weight: 900;
+}
+.fa{
+    color: rgb(179, 179, 203);
+}
+
+sup{
+    font-size: 6rem;
+    margin-top: -2rem;
+}
+/* .data_hide{
+    visibility: hidden;
+    transition: all 0.3s linear;
+} */
+
+.temp_form{
+    width: 40%;
+    position: relative;
+    margin: 5rem auto;
+}
+.temp_form input[type="text"]{
+    width: 100%;
+    padding: 0.8rem;
+    background: #000;
+    color: white;
+    outline: none;
+    border: none;
+    font-size: 1.1rem;
+    border-radius: 2.5rem;
+}
+.temp_form input[type="submit"]{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    bottom: 5px;
+    border : none;
+    background: blue;
+    padding: 0 3rem;
+    border-radius: 1rem;
+    color: white;
+    font-size: 1.3rem;
+}
+
